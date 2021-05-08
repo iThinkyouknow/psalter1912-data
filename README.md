@@ -10,9 +10,9 @@ From your main project if you ever need to clone it from start,
 
     git clone --recurse-submodules <your project url>
 
-When you are pulling in your main project and would also like to pull whatever is the latest from the submodule. (still trying out)
+When you are pulling in your main project and would also like to pull whatever is the latest from the submodule.
 
-    git pull --recurse-submodules
+    git submodule update --recursive --remote
 
 ### There are unminified jsons that I work with (this helps with git diffing so that I know what I have changed.) and minified ones. You should use the minified ones for making your app.
 
