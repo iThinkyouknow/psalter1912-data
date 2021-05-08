@@ -1,4 +1,4 @@
-const psalterJSON_array = require('./../PsalterJSON.json');
+const psalterJSON_array = require('./../_PsalterJSON.json');
 const fs = require('fs');
 const t0 = Date.now();
 const searchJSON_array = psalterJSON_array.map((psalter, index) => {
@@ -35,8 +35,8 @@ console.log(`time: ${(t1 - t0)}`);
 
 const searchJSON_json = JSON.stringify(searchJSON_array, null, 4);
 
-fs.writeFile('../PsalterSearchJSON.json', searchJSON_json, 'utf8', (err) => {
+fs.writeFile('../_PsalterSearchJSON.json', searchJSON_json, 'utf8', (err) => {
 
-    console.log(err);
+    console.error(err);
 });
 
