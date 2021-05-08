@@ -10,7 +10,7 @@ From your main project if you ever need to clone it from start,
 
     git clone --recurse-submodules <your project url>
 
-When you are pulling in your main project and would also like to pull whatever is the latest from the submodule
+When you are pulling in your main project and would also like to pull whatever is the latest from the submodule. (still trying out)
 
     git pull --recurse-submodules
 
