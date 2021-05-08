@@ -34,3 +34,5 @@ Run data-minifier to transform the unminified json to minified ones
 ### I have included THE SCRIPT so that you do not need to worry about such minor details
     cd data-scripts
     sh the-script.js
+
+### There is a "version.json" file to record the version of each json, and their respective remote urls (if you'd like to remotely fetch the data instead). Updates to each file would be manual and incremented by 1, when necessary.
