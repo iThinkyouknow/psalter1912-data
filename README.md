@@ -1,6 +1,7 @@
 The Psalter 1912 Data Repository
 ===
 Welcome! Here is where you'll find the data that is used in the Psalter 1912 project(s).
+### Why am I writing this as if someone else is gonna use it? No one uses this ever! NO ONEEEEEEE!!!!
 ---
 ### You'll probably want to include this repository as a git submodule rather than copying from it directly.
 
@@ -33,6 +34,20 @@ Run data-minifier to transform the unminified json to minified ones
 
 ### I have included THE SCRIPT so that you do not need to worry about such minor details
     cd data-scripts
-    sh the-script.js
+    sh the-script.sh
 
-### There is a "version.json" file to record the version of each json, and their respective remote urls (if you'd like to remotely fetch the data instead). Updates to each file would be manual and incremented by 1, when necessary.
+### There is a "version.json" file to record the version of each json, and their respective remote urls (if you'd like to remotely fetch the data instead). There is a script that automatically increments by 1 if you have any *.json in your git staged (added) files. i.e.
+    
+    git add _<file>.json
+    cd data-scripts
+    sh the-script.sh
+
+or if you prefer to do it manually
+
+    cd data-scripts
+    node automagically-updating-version-json.js <filename>
+
+or for git added files
+
+    cd data-scripts
+    node automagically-updating-version-json.js $(git diff --name-only --cached)
