@@ -5,11 +5,12 @@ process.argv.slice(2)
     .filter(file => /^_\S+\.json$/.test(file))
     .map(file => file.slice(1))
     .forEach(file => {
-        let obj = versionJson[file];
+        let key = file.replace('.json', '');
+        let obj = versionJson[key];
         if (obj) {
             obj.version += 1;
         } else {
-            versionJson[file] = {
+            versionJson[key] = {
                 version: 1,
                 url: `https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/${file}`
             };
