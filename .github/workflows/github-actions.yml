@@ -13,17 +13,19 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [4.x, 15.x]
+        node-version: [14.x, 15.x]
 
     steps:
       - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - run: cd ./data-scripts
-      - run: ls
-      - run: node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
-      - run: sh the-script.sh
-      - run: git add .
-      - run: git commit -m "automagically updated version.js and generated json files"
+        working-directory: ./data-scripts
+        run: ls
+        run: node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
+        run: sh the-script.sh
+        run: git add .
+        run: git commit -m "automagically updated version.js and generated json files"
