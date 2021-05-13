@@ -23,7 +23,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - working-directory: ./data-scripts
         run: |
-          ls
           git fetch
           git diff origin/master --name-only
           node automagically-updating-version-json.js $(git diff origin/master --name-only)
