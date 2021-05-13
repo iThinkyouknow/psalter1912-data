@@ -22,7 +22,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: cd ./data-scripts
-      - run: node automagically-updating-verion-json.js $(git diff HEAD~1 --name-only)
+      - run: ls
+      - run: node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
       - run: sh the-script.sh
       - run: git add .
       - run: git commit -m "automagically updated version.js and generated json files"
