@@ -28,10 +28,11 @@ jobs:
           git fetch
           echo "$PREV"
           echo $(git diff --name-only "$PREV")
-          node automagically-updating-version-json.js $(git diff origin/master HEAD --name-only)
+          node automagically-updating-version-json.js $(git diff "$PREV" --name-only)
           sh the-script.sh
       - working-directory: ./
         run: |
           git add .
+          git status
           git commit -m "automagically updated version.js and generated json files"
           git push origin master
