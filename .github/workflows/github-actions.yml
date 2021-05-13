@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 2
+          fetch-depth: 0
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
@@ -24,7 +24,7 @@ jobs:
       - working-directory: ./data-scripts
         run: |
           git fetch
-          echo $(git show origin/master)
+          echo $(git diff origin/master)
           node automagically-updating-version-json.js $(git diff origin/master HEAD --name-only)
           sh the-script.sh
       - working-directory: ./
