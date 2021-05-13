@@ -23,10 +23,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - working-directory: ./data-scripts
         env:
-          PREV: ${{ github.event.base_ref }}
+          PREV: ${{ github.event.before }}
         run: |
           git fetch
-          echo $PREV
+          echo "$PREV"
           echo $(git diff --name-only $PREV)
           node automagically-updating-version-json.js $(git diff origin/master HEAD --name-only)
           sh the-script.sh
