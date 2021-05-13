@@ -24,8 +24,8 @@ jobs:
       - working-directory: ./data-scripts
         run: |
           git fetch
-          git diff origin/master --name-only
-          node automagically-updating-version-json.js $(git diff origin/master --name-only)
+          git diff origin/master HEAD --name-only
+          node automagically-updating-version-json.js $(git diff origin/master HEAD --name-only)
           sh the-script.sh
       - working-directory: ./
         run: |
