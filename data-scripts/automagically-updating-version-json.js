@@ -16,5 +16,6 @@ process.argv.slice(2)
             };
         }
     });
+versionJson.version.version += 1;
 
 fs.writeFileSync('../_version.json', JSON.stringify(versionJson, null, 2));
