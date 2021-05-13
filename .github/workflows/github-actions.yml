@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-        working-directory: ./data-scripts
+      - working-directory: ./data-scripts
         run: ls
         run: node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
         run: sh the-script.sh
