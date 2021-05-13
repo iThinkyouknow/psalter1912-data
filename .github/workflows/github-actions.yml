@@ -24,7 +24,7 @@ jobs:
       - working-directory: ./data-scripts
         run: |
           ls
-          node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
+          node automagically-updating-version-json.js $(git diff HEAD~2 --name-only)
           sh the-script.sh
       - working-directory: ./
         run: |
