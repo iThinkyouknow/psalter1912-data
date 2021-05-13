@@ -28,5 +28,6 @@ jobs:
           ls
           node automagically-updating-version-json.js $(git diff HEAD~1 --name-only)
           sh the-script.sh
+      - working-directory: ./
           git add .
           git commit -m "automagically updated version.js and generated json files"
