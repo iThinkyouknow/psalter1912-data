@@ -28,8 +28,8 @@ jobs:
           git fetch
           echo "$PREV"
           echo $(git diff --name-only "$PREV")
-          node automagically-updating-version-json.js $(git diff "$PREV" --name-only)
           sh the-script.sh
+          node automagically-updating-version-json.js $(git diff "$PREV" --name-only)
       - working-directory: ./
         run: |
           git add .
