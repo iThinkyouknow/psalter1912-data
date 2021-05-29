@@ -24,7 +24,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-for-the-Administration-of-Baptism.json"
   },
   "Form-for-the-Administration-of-the-Lords-Supper": {
-    "version": 2,
+    "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-for-the-Administration-of-the-Lords-Supper.json"
   },
   "Form-for-the-Confirmation-of-Marriage-before-the-Church": {
@@ -35,9 +35,21 @@
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-for-the-Installation-of-Professors-of-Theology.json"
   },
+  "Form-for-the-Ordination-(or-Installation)-of-Missionaries": {
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-for-the-Ordination-(or-Installation)-of-Missionaries.json"
+  },
+  "Form-of-Ordination-(or-Installation)-of-Ministers-of-Gods-Word": {
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-of-Ordination-(or-Installation)-of-Ministers-of-Gods-Word.json"
+  },
   "Form-of-Ordination-of-Elders-and-Deacons": {
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-of-Ordination-of-Elders-and-Deacons.json"
+  },
+  "Formula-of-Subscription-(PRCA)": {
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Formula-of-Subscription-(PRCA).json"
   },
   "Neglected-Texts": {
     "version": 1,
@@ -79,12 +91,16 @@
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Creed-of-Chalcedon.json"
   },
+  "The-Heidelberg-Catechism(by-LD)": {
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Heidelberg-Catechism(by-LD).json"
+  },
   "The-Nicene-Creed": {
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": -1,
+    "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   }
 }

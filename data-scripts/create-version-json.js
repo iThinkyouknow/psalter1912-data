@@ -1,6 +1,6 @@
 const fs = require('fs');
 const {log} = console;
-const minifiedFilesRegex = /^(?<!_)[a-z0-9-]+\.json$/i
+const minifiedFilesRegex = /^(?<!_)[a-z0-9-\(\)]+\.json$/i
 const files = fs.readdirSync(`${__dirname}/../`)
     .filter(file => minifiedFilesRegex.test(file));
 
