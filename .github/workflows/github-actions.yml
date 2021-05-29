@@ -28,8 +28,9 @@ jobs:
           git fetch
           echo "$PREV"
           echo $(git diff --name-only "$PREV")
-          sh the-script.sh
+          node ./create-search-psalter-data.js
           node automagically-updating-version-json.js $(git diff "$PREV" --name-only)
+          node ./data-minifier.js
       - working-directory: ./
         run: |
           git add .
