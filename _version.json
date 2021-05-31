@@ -51,6 +51,10 @@
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Formula-of-Subscription-(PRCA).json"
   },
+  "Neglected-Alert-Texts": {
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Neglected-Alert-Texts.json"
+  },
   "Neglected-Texts": {
     "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Neglected-Texts.json"
