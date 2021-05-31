@@ -52,11 +52,11 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Formula-of-Subscription-(PRCA).json"
   },
   "Neglected-Alert-Texts": {
-    "version": 1,
+    "version": 2,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Neglected-Alert-Texts.json"
   },
   "Neglected-Texts": {
-    "version": 1,
+    "version": 2,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Neglected-Texts.json"
   },
   "PsalterJSON": {
@@ -104,7 +104,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": -1,
+    "version": 1,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   }
 }
