@@ -84,7 +84,7 @@ const result = confessions.map(({ title, type, content, levels_deep }, index) =>
     });
 
     return result;
-});
+}).flat(2);
 
 // console.log(JSON.stringify(result[0][1], null, 2));
 
