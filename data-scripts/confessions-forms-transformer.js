@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const {log} = console;
+const { log } = console;
 
 const j = (text) => {
     return JSON.stringify(text, null, 4);
@@ -9,16 +9,16 @@ const j = (text) => {
 const common = require('./common');
 
 const {
-        line_is_valid,
-        compose,
-        proof_super_script_fn,
-        ans_fn,
-        q_fn,
-        italics_fn,
-        bold_fn,
-        list_fn,
-        text_trimmer
-      } = common;
+    line_is_valid,
+    compose,
+    proof_super_script_fn,
+    ans_fn,
+    q_fn,
+    italics_fn,
+    bold_fn,
+    list_fn,
+    text_trimmer
+} = common;
 
 /**
  * {
@@ -82,7 +82,7 @@ const regex = /(\n\n)|(\n)|(#\d+#)|(^ *A\. +)|(Q\. \d+\.+)|(<([\w]+)[^>]*>.*?<\/
 const reformatter_fn = regex => ([file, output_name]) => {
     const content_array = Object.entries(file.content);
 
-    const new_content = content_array.map(([key, {header, body, chapter, proof}]) => {
+    const new_content = content_array.map(([key, { header, body, chapter, proof }]) => {
 
         const new_header = header
             .split(regex)
@@ -116,7 +116,7 @@ const reformatter_fn = regex => ([file, output_name]) => {
         }
     });
 
-// log(j(new_content));
+    // log(j(new_content));
 
     const sort_by_chapter = (content_array, i, return_array) => {
         if (i >= content_array.length) return return_array;
@@ -190,7 +190,7 @@ const reformatter_fn = regex => ([file, output_name]) => {
     // [require('../_Form-for-the-Ordination-(or-Installation)-of-Missionaries.json'), 'Form-for-the-Ordination-(or-Installation)-of-Missionaries'],
     // [require('../_Form-of-Ordination-(or-Installation)-of-Ministers-of-God\'s-Word.json'), 'Form-of-Ordination-(or-Installation)-of-Ministers-of-God\'s-Word'],
     // [require('../_Form-of-Ordination-of-Elders-and-Deacons.json'), 'Form-of-Ordination-of-Elders-and-Deacons'],
-    // [require('../_Formula-of-Subscription-(PRCA).json'), 'Formula-of-Subscription-(PRCA)'],
+    // [require('../_Formula-of-Subscription-(RPC).json'), 'Formula-of-Subscription-(RPC)'],
 ].forEach(reformatter_fn(regex));
 
 
