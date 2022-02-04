@@ -104,11 +104,11 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 9,
+    "version": 10,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
-    "version": 3,
+    "version": 4,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/CreedsSearchJSON.json"
   }
 }
