@@ -18,7 +18,7 @@ const confessions = [
     , 'Form-for-the-Installation-of-Professors-of-Theology.json'
     , 'Form-for-the-Ordination-(or-Installation)-of-Missionaries.json'
     , 'Form-for-the-Confirmation-of-Marriage-before-the-Church.json'
-    , 'Formula-of-Subscription-(PRCA).json'
+    , 'Formula-of-Subscription-(RPC).json'
     , 'The-Church-Order.json'
 ].map(file => require(`./../${file}`));
 
