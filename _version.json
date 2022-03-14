@@ -88,7 +88,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Canons-of-Dordt.json"
   },
   "The-Church-Order": {
-    "version": 2,
+    "version": 3,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Church-Order.json"
   },
   "The-Creed-of-Chalcedon": {
@@ -104,7 +104,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 12,
+    "version": 13,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
