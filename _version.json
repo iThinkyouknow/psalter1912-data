@@ -48,7 +48,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Form-of-Ordination-of-Elders-and-Deacons.json"
   },
   "Formula-of-Subscription-(RPC)": {
-    "version": 2,
+    "version": 3,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Formula-of-Subscription-(RPC).json"
   },
   "Neglected-Alert-Texts": {
@@ -104,11 +104,11 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 13,
+    "version": 14,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
-    "version": 4,
+    "version": 5,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/CreedsSearchJSON.json"
   }
 }
