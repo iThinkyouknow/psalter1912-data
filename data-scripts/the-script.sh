@@ -4,4 +4,5 @@
 #   1) auto generate the search json
 #   2) generate minified jsons
 node ./create-search-psalter-data.js
+node ./create-confessions-search.js
 node ./data-minifier.js
