@@ -80,7 +80,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Athanasian-Creed.json"
   },
   "The-Belgic-Confession": {
-    "version": 1,
+    "version": 2,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Belgic-Confession.json"
   },
   "The-Canons-of-Dordt": {
@@ -104,11 +104,11 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 28,
+    "version": 29,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
-    "version": 7,
+    "version": 8,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/CreedsSearchJSON.json"
   }
 }
