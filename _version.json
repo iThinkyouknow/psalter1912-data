@@ -64,7 +64,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/PsalterJSON.json"
   },
   "PsalterSearchJSON": {
-    "version": 15,
+    "version": 16,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/PsalterSearchJSON.json"
   },
   "Superscript-Chars": {
@@ -104,7 +104,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 32,
+    "version": 33,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
