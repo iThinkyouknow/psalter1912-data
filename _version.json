@@ -60,11 +60,11 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/Neglected-Texts.json"
   },
   "PsalterJSON": {
-    "version": 16,
+    "version": 17,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/PsalterJSON.json"
   },
   "PsalterSearchJSON": {
-    "version": 17,
+    "version": 18,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/PsalterSearchJSON.json"
   },
   "Superscript-Chars": {
@@ -104,7 +104,7 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 35,
+    "version": 36,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
