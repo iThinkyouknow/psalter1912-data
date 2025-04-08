@@ -100,15 +100,15 @@
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Heidelberg-Catechism(by-LD).json"
   },
   "The-Nicene-Creed": {
-    "version": 1,
+    "version": 2,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/The-Nicene-Creed.json"
   },
   "version": {
-    "version": 36,
+    "version": 37,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/version.json"
   },
   "CreedsSearchJSON": {
-    "version": 8,
+    "version": 9,
     "url": "https://raw.githubusercontent.com/iThinkyouknow/psalter1912-data/master/CreedsSearchJSON.json"
   }
 }
